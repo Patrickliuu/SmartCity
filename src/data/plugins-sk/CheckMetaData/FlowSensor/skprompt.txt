@@ -1,0 +1,12 @@
+We are in the context of data science. We have a time series of a sensor that measures the flow rate 
+of sewage water, and there is some accompanying meta data which contains a time span and a comment. 
+The following is such a comment, please decide if the sensor data can be used or should be disregarded.
+If no input is given, the data can be accepted.
+----
+{{$input}}
+----
+Answer with "use" or "disregard" if you are confident about your decision, and with "undecided" if 
+you are uncertain about your decision. Elaborate briefly why you made this decision.
+Your answer should be in this JSON format:
+{ "answer": "your answer", "comment": "your comment" }
+
